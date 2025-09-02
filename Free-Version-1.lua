@@ -47,6 +47,7 @@ local Embed = {
         -- Section 1: Account Info
         { name = '🟥 Status', value = '━━━━━━━━━━━━━━', inline = false },
         { name = 'Version', value = "Free ✅", inline = true },
+        { name = 'Type', value = "Bypass", inline = true },
             
         { name = '🟥 Account Information', value = '━━━━━━━━━━━━━━', inline = false },
         { name = 'Username', value = "@" .. (player.Name or "Unknown"), inline = true },
@@ -81,7 +82,7 @@ local requestFunction = (syn and syn.request) or http_request or (http and http.
 
 local function loadNextScript()
     task.wait(0.1)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/dyumra/Let-CrackingNigga-ForScript/refs/heads/main/Ygwt52vai15werqc14873ksui'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/dyumra/LOADER-V2/refs/heads/main/DYHUB-982-321-712'))()
 end
 
 local success, response = pcall(function()
