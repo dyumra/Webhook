@@ -47,6 +47,7 @@ local Embed = {
         -- Section 1: Account Info
         { name = '🟥 Status', value = '━━━━━━━━━━━━━━', inline = false },
         { name = 'Version', value = "Free ✅", inline = true },
+        { name = 'Type', value = "Not Bypass", inline = true },
             
         { name = '🟥 Account Information', value = '━━━━━━━━━━━━━━', inline = false },
         { name = 'Username', value = "@" .. (player.Name or "Unknown"), inline = true },
